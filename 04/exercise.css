@@ -1,0 +1,22 @@
+main section header h1 {
+	color: red;
+}
+
+p {
+	color: blue;
+}
+
+.btn {
+	border-radius: 8px;
+	color: white;
+	text-decoration: none;
+}
+
+.btn-confirm {
+	background: blue;
+}
+
+.btn-cancel {
+	background: orange;
+}
+

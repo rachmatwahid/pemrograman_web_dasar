@@ -1,0 +1,117 @@
+.top{
+    background-color: #212121;
+}
+
+.nav-info{
+    color: white;
+    padding: 1em 2em;
+}
+
+.btn{
+    background-color: #ff35a1;
+    border: 0;
+    padding: 12px 16px; 
+    font-size: 1em;
+    color: white;
+}
+
+.top nav{
+    text-align: center;
+    padding: 1em;
+}
+
+.top nav a{
+    text-decoration: none;
+    color:#ff35a1;
+    margin: 0 1em;
+    font-size: 1em;
+}
+
+.main-info{
+    padding: 1em;
+    text-align: center;
+    font-weight: bold;
+    border-bottom: dashed 1px black ;
+}
+
+.nav-shop{
+    text-align: center;
+    margin: 1em 0;
+    width: 100%;
+}
+
+.nav-shop a{
+    background-color: #ffb6c1;
+    padding: 0 1em;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    width:16%;
+}
+
+.shop-product{
+    float: left;
+    display: inline;
+    width: 23%;
+    margin: 1%;
+}
+
+.tmb{
+    width: 100%;
+    height: 348px;
+}
+
+.shop-product a{
+    text-decoration: none;
+    color: black;
+}
+
+h2{
+    text-align: center;
+}
+
+.shop-categories{
+    float: left;
+    display: inline;
+    width: 33%;
+    padding: 0.1%;
+}
+.img-categories{
+    width: 100%;
+    max-height: 248px;
+}
+
+.shop-favorite{
+    float: left;
+    display: inline;
+    width: 49%;
+    padding: 0.1%;
+}
+
+.img-favorite{
+    width: 100%;
+    max-height: 256px;
+    
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  clear: both;
+  *zoom: 1;
+}
+
+footer {
+  text-align: center;
+  background-color: black;
+  padding: 1em 0;
+  border-radius: 1em;
+  color: white;
+}

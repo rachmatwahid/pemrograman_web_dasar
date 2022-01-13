@@ -1,0 +1,43 @@
+h1 {
+	font-size: 64px;
+	color: red;
+}
+
+h1 {
+	color: blue;
+}
+
+
+header p {
+	color: yellow;
+}
+
+header p.info {
+	color: green;
+}
+
+.btn {
+	font-size: 32px;
+}
+
+.btn-confirm {
+	background-color: blue;
+}
+
+.btn-cancel {
+	background-color: lightgray;
+}
+
+.mood {
+	font-size: 32px;
+}
+
+.mood strong {
+	font-size: 50%;
+}
+
+.author {
+	font-size: 32px;
+	border: 1px solid #000000;
+	width: 2em;
+}

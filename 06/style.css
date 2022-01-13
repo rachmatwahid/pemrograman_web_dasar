@@ -1,0 +1,29 @@
+.clearfix:before,
+.clearfix:after {
+	content: "";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.clearfix {
+	clear: both;
+	*zoom: 1;
+}
+
+header {
+	border-bottom: 1px solid #EEE;
+	margin-bottom: 16px;
+}
+
+.product {
+	float: left;
+}
+
+footer {
+	background: #EEE;
+	padding: 16px;
+}
+

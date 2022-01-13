@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Linear Gradient</title>
+	<style type="text/css">
+		div {
+			width: 200px;
+			height: 200px;
+		}
+		.linear {
+			background: #F06292;
+			background: -webkit-linear-gradient(#AB47BC, #FCE4EC);
+			background: -moz-linear-gradient(#AB47BC, #FCE4EC);
+			background: linear-gradient(#AB47BC, #FCE4EC);
+		}
+		.change-direction {
+			background: rgb(240, 98, 146);
+			background: -webkit-linear-gradient( to left bottom, #FFEBEE, #B71C1C);
+			background: -moz-linear-gradient(to left bottom, #FFEBEE, #B71C1C);
+			background: linear-gradient(to left bottom, #FFEBEE, #B71C1C);
+		}
+		.change-direction-degree {
+			background: #00E5FF;
+			background: -webkit-linear-gradient( 90deg, #00E5FF, #C6FF00);
+			background: -moz-linear-gradient(90deg, #00E5FF, #C6FF00);
+			background: linear-gradient(90deg, #00E5FF, #C6FF00);
+		}
+		.tri-color-linear {
+			background: red;
+			background: -webkit-linear-gradient(red, blue, green);
+			background: -moz-linear-gradient(red, blue, green);
+			background: linear-gradient(red, blue, green);
+		}
+		.tri-color-linear-unequal {
+			background: red;
+			background: -webkit-linear-gradient(red 5%, blue 25%, green 75%);
+			background: -moz-linear-gradient(red 5%, blue 25%, green 75%;
+			background: linear-gradient(red 5%, blue 25%, green 75%;
+		}
+	</style>
+</head>
+<body>
+	
+	<div class="linear"></div>
+	<div class="change-direction"></div>
+	<div class="change-direction-degree"></div>
+	<div class="tri-color-linear"></div>
+	<div class="tri-color-linear-unequal"></div>
+</body>
+</html>

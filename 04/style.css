@@ -1,0 +1,58 @@
+
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+header nav, footer nav {
+	background: lightgrey;
+	padding: 16px 0;
+}
+
+section {
+	padding-bottom: 16px;
+	border-bottom: 1px solid grey;
+}
+
+section a {
+	background: lightgrey;
+	border-radius: 4px;
+	padding: 8px;
+}
+
+footer {
+	background: lightgrey;
+	margin-top: 32px;
+	text-align: center;
+}
+
+.portfolio {
+	text-align: right;
+}
+
+b {
+	width: 500px;
+}
+
+.about {
+	-moz-box-sizing: content-box;
+}
+
+
+
+
+
+p {
+	background-color: #e0e0e0;
+	padding: 10px;
+	margin: 10px 0px;
+	border-radius: 25px 5px;
+	box-shadow: 0 .1rem .1rem #909090;
+}
+
+h1 {
+	border-top-color: black;
+	border-top-style: solid;
+	border-top-width: 10px;
+}

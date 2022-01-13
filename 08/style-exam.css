@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+a {
+	font-family: Poppins, sans-serif;
+	text-decoration: none;
+}
+
+h2 {
+	text-align: center;
+}
+
+header.top {
+	color: white;
+	background: #212121;
+	padding: 16px;
+}
+
+.btn {
+	padding: 8px;
+}
+
+.btn-pink {
+	color: white;
+	background-color: deeppink;
+}
+
+header.top nav {
+	text-align: center;
+}
+
+header.top nav a {
+	color: deeppink;
+	margin: 0 8px;
+}
+
+header.top h1, header.top p {
+	font-family: Merriweather, serif;
+}
+
+header.top p {
+	margin-bottom: 32px;
+}
+
+footer {
+	padding: 16px;
+	color: white;
+	background: #121212;
+}
+
+footer p {
+	text-align: center;
+}
+
+.img-tri-eq {
+	width: 32%;
+	height: auto;
+}
+
+.img-two-eq {
+	width: 49%;
+	height: auto;
+}
+
+.main-info {
+	font-weight: bold;
+	padding: 16px;
+	text-align: center;
+	border-bottom: 1px dashed grey;
+}
+
+
+.nav-shop {
+	background: lightpink;
+	margin: 16px 0;
+}
+.nav-shop a {
+	color: white;
+	text-align: center;
+	display: inline-block;
+	width: 19%;
+	border-right: 1px solid white;
+}
+
+.nav-shop a.nav-end {
+	border-right: none;
+}
+
+.shop-product {
+	margin: 0 1%;
+	width: 23%;
+	float: left;
+}
+
+.tmb {
+	width: 100%;
+	height: auto;
+}
+
+.shop-product a {
+	color: black;
+}
+
+.clearfix:before,
+		.clearfix:after {
+			content: "";
+			display: table;
+		}
+		.clearfix:after {
+			clear: both;
+		}
+		.clearfix {
+			clear: both;
+			*zoom: 1;
+			margin-bottom: 16px;
+		}

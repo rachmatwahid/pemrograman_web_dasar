@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Background Position</title>
+	<style type="text/css">
+		div {
+			height: 200px;
+			background-image: url("coding.jpg");
+		}
+		div p {
+			color: white;
+		}
+		.image-position-horizontal {
+			background-color: indianred;
+			background-repeat: no-repeat;
+			background-position: -20px 0;
+		}
+		.image-position-vertical {
+			background-color: skyblue;
+			background-repeat: no-repeat;
+			background-position: 0 50px;
+		}
+		.image-position-right-top {
+			background-color: darkcyan;
+			background-repeat: no-repeat;
+			background-position: right top;
+		}
+	</style>
+</head>
+<body>
+<div class="image-position-horizontal">
+		<p>This image positioned horizontally</p>
+	</div>
+	<div class="image-position-vertical">
+		<p>This image positioned vertically</p>
+	</div>
+	<div class="image-position-right-top">
+		<p>This image is on right top corner</p>
+	</div>
+</body>
+</html>
