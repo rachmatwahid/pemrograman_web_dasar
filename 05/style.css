@@ -20,6 +20,10 @@ p {
 	color: #424242;
 }
 
+.primary div {
+	display: inline-block;
+}
+
 header#top nav a:link,
 header#top nav a:visited {
 	color: #1976D2;
@@ -54,4 +58,25 @@ footer.bottom a {
 
 .bottom {
 	padding: 64px 0 32px 0;
+}
+
+.features article {
+	float: left;
+	width: 30%;
+	margin: 0 1.5%;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  clear: both;
+  *zoom: 1;
 }

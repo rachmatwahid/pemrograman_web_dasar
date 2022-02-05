@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Background Image</title>
+	<style type="text/css">
+		.repeat {
+			width: 332px;
+			height: 500px;
+			background-image: url("img/background-small.jpg");
+		}
+
+		.no-repeat {
+			width: 332px;
+			height: 500px;
+			background-image: url("img/background-small.jpg");
+			background-repeat: no-repeat;
+		}
+
+		.position-xy {
+			width: 332px;
+			height: 500px;
+			background-color: #E6D960;
+			background-image: url("img/background-small.jpg");
+			background-repeat: no-repeat;
+			background-position: 100px 200px;
+		}
+
+		.position-right-bottom {
+			width: 332px;
+			height: 500px;
+			background-color: #F0AB65;
+			background-image: url("img/background-small.jpg");
+			background-repeat: no-repeat;
+			background-position: right bottom;
+		}
+
+		.position-right {
+			width: 332px;
+			height: 500px;
+			background-color: #D96675;
+			background-image: url("img/background-small.jpg");
+			background-repeat: no-repeat;
+			background-position: right;
+		}
+
+		.background {
+			width: 332px;
+			height: 250px;
+			background: orange url("img/background-small.jpg") left no-repeat;
+		}
+		
+		.multiple-background-image {
+			width: 332px;
+			height: 250px;
+			background-color: #D96675;
+			background: url("img/background-small.jpg") left no-repeat, url("img/wallpaper-small.jpg") right no-repeat;
+		}
+	</style>
+</head>
+<body>
+	<div class="repeat">
+		<code>repeat</code>
+	</div>
+	<div class="no-repeat">
+		<code>no-repeat</code>
+	</div>
+	<div class="position-xy">
+		<code>position-xy</code>
+	</div>
+	<div class="position-right-bottom">
+		<code>position-right-bottom</code>
+	</div>
+	<div class="position-right">
+		<code>position-right</code>
+	</div>
+	<div class="background">
+		<code>background</code>
+	</div>
+	<div class="multiple-background-image">
+		<code>multiple-background-image</code>
+	</div>
+</body>
+</html>

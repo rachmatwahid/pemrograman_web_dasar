@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Linear Gradient</title>
+	<style type="text/css">
+		.linear-gradient {
+			width: 250px;
+			height: 250px;
+			background: #D96675;
+			background: -webkit-linear-gradient(#D96675, #DFACB3);
+			background: -moz-linear-gradient(#D96675, #DFACB3);
+			background: linear-gradient(#D96675, #DFACB3);
+		}
+
+		.linear-gradient-left-top {
+			width: 250px;
+			height: 250px;
+			background: #D96675;
+			background: -webkit-linear-gradient(to left top, #5DC7A7, #22473C);
+			background: -moz-linear-gradient(to left top, #5DC7A7, #22473C);
+			background: linear-gradient(to left top, #5DC7A7, #22473C);
+		}
+
+		.linear-gradient-45-deg {
+			width: 250px;
+			height: 250px;
+			background: #D96675;
+			background: -webkit-linear-gradient(45deg, #474222, #E0CA49);
+			background: -moz-linear-gradient(45deg, #474222, #E0CA49);
+			background: linear-gradient(45deg, #474222, #E0CA49);
+		}
+
+		.linear-gradient-tricolor {
+			width: 250px;
+			height: 250px;
+			background: red;
+  			background: -webkit-linear-gradient(red, blue, green);
+  			background: -moz-linear-gradient(red, blue, green);
+  			background: linear-gradient(red, blue, green);
+		}
+
+		.linear-gradient-tricolor-unequal {
+			width: 250px;
+			height: 250px;
+			background: red;
+  			background: -webkit-linear-gradient(red 5%, blue 25%, green 75%);
+  			background: -moz-linear-gradient(red 5%, blue 25%, green 75%;
+  			background: linear-gradient(red 5%, blue 25%, green 75%;
+		}
+	</style>
+</head>
+<body>
+	<div class="linear-gradient">
+		<code>linear-gradient</code>
+	</div>
+	<div class="linear-gradient-left-top">
+		<code>linear-gradient-left-top</code>
+	</div>
+	<div class="linear-gradient-45-deg">
+		<code>linear-gradient-45-deg</code>
+	</div>
+	<div class="linear-gradient-tricolor">
+		<code>linear-gradient-tricolor</code>
+	</div>
+	<div class="linear-gradient-tricolor-unequal">
+		<code>linear-gradient-tricolor-unequal</code>
+	</div>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Background Size</title>
+	<style type="text/css">
+		.background-size-px {
+			width: 332px;
+			height: 500px;
+			background-color: orange;
+			background-image: url("img/background-small.jpg");
+			background-repeat: no-repeat;
+			background-size: 332px 250px;
+		}
+
+		.background-size-percent {
+			width: 332px;
+			height: 500px;
+			background-color: orange;
+			background-image: url("img/background-small.jpg");
+			background-repeat: no-repeat;
+			background-size: 75% 75%;
+		}
+
+		.background-size-cover {
+			width: 332px;
+			height: 250px;
+			background-color: orange;
+			background-image: url("img/background-small.jpg");
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+
+		.background-size-contain {
+			width: 332px;
+			height: 250px;
+			background-color: orange;
+			background-image: url("img/background-small.jpg");
+			background-repeat: no-repeat;
+			background-size: contain;
+		}
+
+		.background-clip-origin {
+			width: 166px;
+			height: 250px;
+			padding: 8px;
+			border: 8px solid orange;
+			background-image: url("img/background-small.jpg");
+			background-repeat: no-repeat;
+			background-clip: content-box;
+			background-origin: content-box;
+		}
+	</style>
+</head>
+<body>
+	<div class="background-size-px">
+		<code>background-size-px</code>
+	</div>
+	<div class="background-size-percent">
+		<code>background-size-percent</code>
+	</div>
+	<div class="background-size-cover">
+		<code>background-size-cover</code>
+	</div>
+	<div class="background-size-contain">
+		<code>background-size-contain</code>
+	</div>
+	<div class="background-clip-origin">
+		<code>background-clip-origin</code>
+	</div>
+</body>
+</html>

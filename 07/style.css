@@ -49,10 +49,6 @@ p {
 	display: inline-block;
 }
 
-header#top nav ul li {
-	display: inline-block;
-}
-
 header#top nav a {
 	line-height: 24px;
 	height: 24px;
@@ -105,29 +101,6 @@ footer.bottom a {
 	padding: 64px 0 32px 0;
 }
 
-.bottom div {
-	margin: 0 32px;
-}
-
-.bottom div h4 {
-	color: white;
-	margin: 16px 0;
-}
-
-.bottom div nav ul {
-	padding: 0;
-	margin: 16px 0;
-}
-
-.bottom div nav ul li {
-	list-style-type: none;
-	margin: 8px 0;
-}
-
-.bottom div nav ul li a {
-	padding: 0;
-}
-
 .features article {
 	float: left;
 	width: 30%;
@@ -136,17 +109,6 @@ footer.bottom a {
 
 .features article p {
 	font-size: smaller;
-}
-
-.faq header {
-	text-align: center;
-}
-
-.faq ul li {
-	list-style-type: none;
-	background: url("img/check.png") 0 5% no-repeat;
-	background-size: 24px 24px;
-	padding-left: 32px;
 }
 
 .review {
