@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Image Demo</title>
+	<style type="text/css">
+		.img-block {
+			display: block;
+		}
+
+		.float-img {
+			float: left;
+			margin-right: 10px;
+		}
+
+	</style>
+</head>
+<body>
+	<img src="img/apple.jpg" alt="A red apple">
+	<img src="img/apple.jpg" alt="A red apple" width="100px" height="100px">
+
+	<p>An apple is an edible fruit produced by an apple tree (Malus domestica). <img src="img/apple.jpg" alt="A red apple "> Apple trees are cultivated worldwide and are the most widely grown species in the genus Malus.</p>
+
+	<p>An apple is an edible fruit produced by an apple tree (Malus domestica). <img src="img/apple.jpg" alt="A red apple " class="img-block"> Apple trees are cultivated worldwide and are the most widely grown species in the genus Malus.</p>
+
+	<p>An apple is an edible fruit produced by an apple tree (Malus domestica). <img src="img/apple.jpg" alt="A red apple " class="float-img"> Apple trees are cultivated worldwide and are the most widely grown species in the genus Malus.</p>
+
+	<img
+	srcset="img/apple-sm.jpg 426w,
+	img/apple-md.jpg 640w,
+	img/apple-lg.jpg 854w"
+	alt="A red apple"
+	sizes="(max-width: 576px) 426px,
+	(max-width: 768px) 640px,
+	(max-width: 992px) 854px"
+	class="responsive-img">
+
+</body>
+</html>
