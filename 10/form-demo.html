@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Form Demo</title>
+</head>
+<body>
+	<form action="login.php" method="post"></form>
+
+	<label>Username</label>
+
+	<form action="login.php" method="post">
+		<label>First Name
+			<input type="text" name="first_name">
+		</label>
+	</form>
+
+	<form action="login.php" method="post">
+		<label for="last_name">Last Name</label>
+		<input type="text" name="last_name" id="last_name">
+	</form>
+
+	<form action="comments.php" method="post">
+		<label>Comments
+			<textarea rows="3"></textarea>
+		</label>
+	</form>
+
+	<form action="registration.php" method="post">
+		<p>Gender</p>
+		<label>Male
+			<input type="radio" name="gender" value="male" checked> 
+		</label>
+		<label>Female
+			<input type="radio" name="gender" value="female">
+		</label>
+	</form>
+
+	<form action="registration.php" method="post">
+		<p>Skills</p>
+		<input type="checkbox" name="skill" value="computer" id="computer">
+		<label for="computer">Computer</label>
+
+		<input type="checkbox" name="skill" value="math" id="math">
+		<label for="math">Math</label>
+
+		<input type="checkbox" name="skill" value="english" id="english">
+		<label for="english">English</label>
+	</form>
+
+	<form action="registration.php" method="post">
+		<label>Country</label>
+		<select name="country">
+			<option value="indonesia" selected>Indonesia</option>
+			<option value="malaysia">Malaysia</option>
+			<option value="australia">Australia</option>
+			<option value="myanmar">Myanmar</option>
+			<option value="cambodia">Cambodia</option>
+			<option value="japan">Japan</option>
+		</select>
+	</form>
+
+	<form action="login.php" method="post">
+		<label>Country</label>
+		<select name="country" multiple>
+			<option value="indonesia" selected>Indonesia</option>
+			<option value="malaysia">Malaysia</option>
+			<option value="australia">Australia</option>
+			<option value="myanmar">Myanmar</option>
+			<option value="cambodia">Cambodia</option>
+			<option value="japan">Japan</option>
+		</select>
+	</form>
+
+	<form action="login.php" method="post">
+		<input type="submit" name="submit" value="Send">
+	</form>
+
+	<form action="login.php" method="post">
+		<button name="cancel">
+			<strong>Abort!</strong> I don't want to do this
+		</button>
+	</form>
+
+	<form action="register.php" method="post">
+		<label for="photo">Profile Picture</label>
+		<input type="file" name="photo" id="photo" accept="image/jpeg, image/png">
+	</form>
+
+	<form action="login.php" method="post">
+		<fieldset>
+			<label>
+				Username
+				<input type="text" name="username">
+			</label>
+			<label>
+				Password
+				<input type="password" name="password">
+			</label>
+		</fieldset>	
+	</form>
+
+	<form>
+		<fieldset>
+			<legend>Age group</legend>
+
+			<input type="radio" name="age" value="kids" id="kids">
+		<label for="kids">0-17 years old</label>
+
+		<input type="radio" name="age" value="teen" id="teen">
+		<label for="teen">17-20 years old</label>
+
+		<input type="radio" name="age" value="adult" id="adult">
+		<label for="adult">>20 years old</label>
+		</fieldset>
+	</form>
+
+</body>
+</html>

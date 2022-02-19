@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@600&display=swap');
+
+body {
+	font-size: 24px;
+	font-weight: normal;
+	background-color: #FAFAFA;
+}
+
+h1,
+h2,
+h4 {
+	font-family: 'Lora', serif;
+}
+
+h1 {
+	font-size: 3em;
+	margin: 32px 0 16px 0;
+	color: #1565C0;
+	text-shadow: 1px 1px 8px lightgray;
+}
+
+h2 {
+	font-size: 2em;
+	margin: 32px 0 16px 0;
+	text-shadow: 1px 1px 8px lightgray;
+}
+
+p {
+	margin: 16px 0;
+	color: #757575;
+}
+
+.primary {
+	background-color: white;
+}
+
+.secondary {
+	text-align: center;
+	background-image: url("img/background.jpg");
+	background-repeat: no-repeat;
+	background-clip: border-box;
+}
+
+.primary p, .secondary p {
+	color: #424242;
+}
+
+.primary div {
+	display: inline-block;
+}
+
+header#top nav ul li {
+	display: inline-block;
+}
+
+header#top nav a {
+	line-height: 24px;
+	height: 24px;
+}
+
+header#top nav a:link,
+header#top nav a:visited {
+	color: #1976D2;
+
+}
+
+header#top nav a:hover {
+	color: rgb(33, 150, 243);
+
+}
+
+nav a {
+	display: inline-block;
+	padding: 8px;
+	text-decoration: none;
+}
+
+section {
+	padding: 32px 0;
+}
+
+footer.bottom {
+	background-color: #0D47A1;
+}
+
+main {
+
+}
+
+footer.bottom a {
+	color: #E3F2FD;
+}
+
+#top {
+	padding: 16px 0 32px 0;
+	background: linear-gradient(to top, #FAFAFA, #F5F5F5);
+}
+
+#top nav a {
+	text-transform: uppercase;
+	letter-spacing: .25em;
+}
+
+.bottom {
+	padding: 64px 0 32px 0;
+}
+
+.bottom div {
+	margin: 0 32px;
+}
+
+.bottom div h4 {
+	color: white;
+	margin: 16px 0;
+}
+
+.bottom div nav ul {
+	padding: 0;
+	margin: 16px 0;
+}
+
+.bottom div nav ul li {
+	list-style-type: none;
+	margin: 8px 0;
+}
+
+.bottom div nav ul li a {
+	padding: 0;
+}
+
+.features article {
+	float: left;
+	width: 30%;
+	margin: 0 1.5%;
+}
+
+.features article p {
+	font-size: smaller;
+}
+
+.showcase iframe {
+	display: block;
+	margin: 0 auto;
+}
+
+.faq header {
+	text-align: center;
+}
+
+.faq div div {
+	width: 50%;
+	float: left;
+}
+
+.faq div div img {
+	width: 100%;
+}
+
+.faq div div ul li {
+	list-style-type: none;
+	background: url("img/check.png") 0 5% no-repeat;
+	background-size: 24px 24px;
+	padding-left: 32px;
+}
+
+.show video {
+	width: 100%;
+}
+
+.review {
+	text-align: center;
+}
+
+.review img {
+	display: block;
+	width: 200px;
+	margin: 0 auto;
+}
+
+.review h4 {
+	font-variant: small-caps;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  clear: both;
+  *zoom: 1;
+}
+
+.book {
+	font-style: italic;
+}
+
+.register header {
+	text-align: center;
+}
+
+.register form {
+	margin: 0 auto;
+	max-width: 426px;
+}
+
+.register form label {
+	margin: 16px 0;
+	width: 100%;
+	display: block;
+}
+
+.register form input {
+	width: 100%;
+}
+
+.register form input.agree {
+	width: auto;
+}
+
+.register form .agree-label {
+	display: inline;
+	font-size: smaller;
+}
+
+.register form button {
+	width: 100%;
+	background: #0D47A1;
+	color: white;
+	padding: 8px;
+	margin: 16px 0;
+	font-weight: bolder;
+}
+
+.team table {
+	border-collapse: collapse;
+	width: 50%;
+	margin: 0 25%;
+}
+
+.team table tbody {
+	height: 160px;
+}
+
+.team table th,
+.team table td {
+	text-align: left;
+	border-bottom: 1px solid #1976D2;
+}
+
+.team table caption {
+	font-family: 'Lora', serif;
+	font-size: 2em;
+	font-weight: bolder;
+	margin: 16px 0;
+}

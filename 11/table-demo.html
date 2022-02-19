@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Table Demo</title>
+	<style type="text/css">
+		/*table, th, td {
+			border: 1px solid black;
+		}*/
+		.person-table {
+			border-collapse: collapse;
+		}
+		.gender-table {
+			border-spacing: 8px;
+		}
+		.popular-table {
+			border-collapse: collapse;
+		}
+		.course-table {
+			border-collapse: collapse;
+			border: none;
+		}
+		.course-table table, th, td {
+			border-bottom: 1px solid black;
+		}
+		.facility-table {
+			border-collapse: collapse;
+		}
+		.facility-table tbody {
+			height: 100px;
+			vertical-align: top;
+		}
+		.facility-table .hour {
+			text-align: right;
+		}
+
+	</style>
+</head>
+<body>
+	<table>
+		<caption>Student Grade</caption>
+		<thead>
+			<tr>
+			<th scope="col">No.</th>
+			<th scope="col">Name</th>
+			<th scope="col">Grade</th>
+		</tr>
+		</thead>
+		<tbody>
+			<tr>
+			<td>1</td>
+			<td>Anna</td>
+			<td>3.4</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>Brad</td>
+			<td>3.0</td>
+		</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<td colspan="2">Overall</td>
+				<td>3.11</td>
+			</tr>
+		</tfoot>
+	</table>
+	<br>
+	<h2>Student Gender</h2>
+	<table class="gender-table" border="1">
+		<tr>
+			<th>No.</th>
+			<th>Gender</th>
+			<th>Percentage</th>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>Male</td>
+			<td>80</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>Female</td>
+			<td>20</td>
+		</tr>
+	</table>
+
+
+	<h2>Popular Student</h2>
+	<table class="popular-table" border="1">
+		<tr>
+			<th>Rank</th>
+			<th>Name</th>
+		</tr>
+		<tr>
+			<td>1</td>
+			<td>Don Juo</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>Annie</td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>Mia</td>
+		</tr>
+	</table>
+
+	<h2>Popular Course</h2>
+	<table class="course-table">
+		<thead>
+			<tr>
+				<th>Rank</th>
+				<th>Course</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>1</td>
+				<td>Computer</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>Math</td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td>Physics</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<h2>School Facilities</h2>
+	<table class="facility-table">
+		<thead>
+			<tr>
+				<th>Facility</th>
+				<th>Open Hours</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Medical Room</td>
+				<td class="hour">09.00 AM</td>
+			</tr>
+			<tr>
+				<td>Cafetaria</td>
+				<td class="hour">07.00 AM</td>
+			</tr>
+			<tr>
+				<td>Computer Lab</td>
+				<td class="hour">09.00 AM</td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+</html>
